@@ -11,6 +11,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -28,6 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -39,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593638519392</updated>
-      <workItem from="1593638520592" duration="308000" />
+      <workItem from="1593638520592" duration="1511000" />
     </task>
     <servers />
   </component>
