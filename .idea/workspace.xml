@@ -10,8 +10,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTTP Request" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -42,11 +43,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593638519392</updated>
-      <workItem from="1593638520592" duration="1511000" />
+      <workItem from="1593638520592" duration="2535000" />
+      <workItem from="1593707032132" duration="199000" />
+      <workItem from="1593771960604" duration="1239000" />
+      <workItem from="1593788589533" duration="17358000" />
+      <workItem from="1593852860171" duration="12423000" />
+      <workItem from="1593942166852" duration="4821000" />
+      <workItem from="1593953745857" duration="3144000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="845" y="383" key="#Notifications" timestamp="1593773008531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="383" key="#Notifications/-1920.373.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593773008531" />
+    <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593797841460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-1920.373.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593797841460" />
   </component>
 </project>
