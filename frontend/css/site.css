@@ -1,3 +1,6 @@
+                        /* commun */
+
+
 html {
     width: 100%;
     background-color: #ba6b57;
@@ -10,6 +13,7 @@ html {
     height: 120px;
     background-color: #f1935c;
     border-radius: 30px;
+    border: solid;
 }
 
 #nomSite {
@@ -41,6 +45,7 @@ html {
     font-family: MV Boli;
     color: black;
     border-radius: 50% 20% / 10% 40%;
+    transition: all 1s ease-out;
 }
 
 .icon:hover {
@@ -50,6 +55,11 @@ html {
 
 
 
+
+
+
+
+                    /* site */
 
 
 .bodySite {
@@ -70,16 +80,86 @@ html {
 
 #ouvertureTitre {
     font-size: 40px;
+    font-weight: bold;
 }
 
 #ouvertureCorps {
     font-size: 20px;
+    color: #f1935c;
+    font-weight: bold;
 }
 
 #reservationTitre {
     font-size: 40px;
+    font-weight: bold;
 }
 
 #reservationCoprs {
     font-size: 20px;
+    color: #f1935c;
+    font-weight: bold;
 }
+
+
+
+                    /* carte */
+
+
+
+
+
+
+                    /* avis */
+
+#avis {
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+    font-weight: bold;
+}
+
+#avisTa {
+    font-size: 25px;
+}
+
+#lienTa {
+    color: #f1935c;
+    border-radius: 30px;
+}
+
+#lienTa:hover {
+    color: whitesmoke;
+}
+
+
+
+
+                        /* contact */
+
+#contact {
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+}
+
+#contactTitre {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#contactCoprs {
+    font-size: 20px;
+    color: #f1935c;
+    font-weight: bold;
+}
+
+#mapTitre {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+#map {
+    border-radius: 30px;
+}
+
+
+
