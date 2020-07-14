@@ -104,6 +104,16 @@ html {
 
                     /* carte */
 
+#categorie {
+    font-size: 25px;
+    color: #f1935c;
+    font-weight: bold;
+    border: black solid;
+}
+
+#formCarte {
+    text-align: center;
+}
 
 
 

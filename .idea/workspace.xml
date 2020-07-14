@@ -52,6 +52,14 @@
       <workItem from="1593953745857" duration="3144000" />
       <workItem from="1593961823634" duration="2868000" />
       <workItem from="1593979420977" duration="5408000" />
+      <workItem from="1594201904038" duration="4183000" />
+      <workItem from="1594287362331" duration="23000" />
+      <workItem from="1594288525660" duration="1221000" />
+      <workItem from="1594294113726" duration="2869000" />
+      <workItem from="1594462677811" duration="3023000" />
+      <workItem from="1594543072977" duration="2387000" />
+      <workItem from="1594630704034" duration="2704000" />
+      <workItem from="1594720413446" duration="795000" />
     </task>
     <servers />
   </component>
@@ -67,5 +75,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-1920.373.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593797841460" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1594297292189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/-1920.373.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594297292189" />
   </component>
 </project>
