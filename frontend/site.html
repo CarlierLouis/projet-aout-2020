@@ -40,11 +40,22 @@
         
         <a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a><img id="bio" src="img/bio.png" width="200px"><br>
         <a id="certif">Nos produits, en plus d'être exclusivement d'origine végétale, sont certifiés 100% bio et issus de l'agriculture locale.</a>
-        <hr color="black" width="40%"><br><br><br><br><br><br>
+        <hr color="black" width="40%"><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
 </body>
 
 
 <footer>
+    <div>
+        <form id="form" name="connexion" onsubmit="return connect()" action="modifCarte.html">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom">
+            <label for="mp">&nbsp&nbsp&nbsp&nbspMot de passe</label>
+            <input type="password" id="mp" name="mp">
+            <input type="submit" value="Connexion" >
+            <p id="verif" style="color: red"></p>
+            <br>
+        </form>
+    </div>
 </footer>
 </html>
