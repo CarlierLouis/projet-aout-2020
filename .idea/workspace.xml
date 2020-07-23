@@ -30,8 +30,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Bureau/démineur" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RunManager">
+    <configuration name="site.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/projet-aout-2020/frontend/site.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.site.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,6 +76,12 @@
       <workItem from="1595238470965" duration="619000" />
       <workItem from="1595249478255" duration="1088000" />
       <workItem from="1595272145165" duration="3356000" />
+      <workItem from="1595429158341" duration="13000" />
+      <workItem from="1595432208129" duration="2599000" />
+      <workItem from="1595435165695" duration="50000" />
+      <workItem from="1595451749156" duration="500000" />
+      <workItem from="1595452257456" duration="6000" />
+      <workItem from="1595492822919" duration="4252000" />
     </task>
     <servers />
   </component>
@@ -81,6 +97,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-1920.373.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593797841460" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1595451821060">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.373.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595451821060" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1594297292189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
