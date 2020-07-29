@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fc35cea-f527-4cfd-bb8e-fba22428c11c" name="Default Changelist" comment="" />
+    <list default="true" id="2fc35cea-f527-4cfd-bb8e-fba22428c11c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/carte.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/carte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/modifCarte.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/modifCarte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/site.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/site.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/site.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/site.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +92,21 @@
       <workItem from="1595451749156" duration="500000" />
       <workItem from="1595452257456" duration="6000" />
       <workItem from="1595492822919" duration="4252000" />
+      <workItem from="1595528158354" duration="2000" />
+      <workItem from="1595538928966" duration="6000" />
+      <workItem from="1595539117494" duration="7000" />
+      <workItem from="1595539174051" duration="3011000" />
+      <workItem from="1595542194006" duration="1618000" />
+      <workItem from="1595584425429" duration="2119000" />
+      <workItem from="1595590739028" duration="1146000" />
+      <workItem from="1595670104126" duration="1784000" />
+      <workItem from="1595842051098" duration="7000" />
+      <workItem from="1595842591597" duration="1258000" />
+      <workItem from="1595844422097" duration="3000" />
+      <workItem from="1596024867410" duration="18000" />
+      <workItem from="1596025067889" duration="4000" />
+      <workItem from="1596025126429" duration="96000" />
+      <workItem from="1596026109507" duration="4156000" />
     </task>
     <servers />
   </component>
