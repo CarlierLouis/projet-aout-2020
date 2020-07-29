@@ -3,6 +3,8 @@
 # Aspects implémentés
 # Détail api rest
 # Détail DB 
+# Shéma relationel 
+
 
 
 
