@@ -6,21 +6,25 @@
     <meta charset="UTF-8">
     <title>vegezek</title>
 </head>
-<body>
+<body  onload="chargerTypeMets('typeMets')" >
     <button onclick="document.location.href='site.html'">Home</button><br><br><br><br>
 
     <form onsubmit="return modif()" id="formAjout">
-        <label for="nomMet">Nom du met:</label>
-        <input type="text" name="nomMet" id="nomMet"><br>
+        <label for="nomMets">Nom du mets:</label>
+        <input type="text" name="nomMets" id="nomMets"><br>
 
         <label for="description">Description :</label>
         <input type="text" name="description" id="description"><br>
 
-        <label for="typeMet">Type de met :</label>
-        <select id="typeMet">
+        <label for="typeMets">Type de mets :</label>
+        <select id="typeMets">
         </select>
         <input type="submit">
 
+    </form>
+
+    <p id="metsEnvoye"></p>
 
 </body>
 </html>
+

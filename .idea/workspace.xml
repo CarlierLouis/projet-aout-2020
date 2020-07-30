@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2fc35cea-f527-4cfd-bb8e-fba22428c11c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/script-api-rest/webservice-modifCarte.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/script-api-rest/webservice-modifCarte.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/scripts-base-de-donnees/creation-tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/scripts-base-de-donnees/creation-tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/scripts-base-de-donnees/insertion-donnees.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/scripts-base-de-donnees/insertion-donnees.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/modifCarte.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/modifCarte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/site.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/site.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/site.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +106,7 @@
       <workItem from="1596025067889" duration="4000" />
       <workItem from="1596025126429" duration="96000" />
       <workItem from="1596026109507" duration="4205000" />
+      <workItem from="1596102808648" duration="6980000" />
     </task>
     <servers />
   </component>
