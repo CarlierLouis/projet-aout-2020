@@ -58,7 +58,7 @@ function chargerTypeMets(id) {
             typeM += "<option value='"+tabl[i].typeMets+"' id='"+tabl[i].id_typeMets+"'>"+tabl[i].typeMets+"</option>";
         }
         document.getElementById(id).innerHTML += typeM
-    }
+    };
     xhr.send();
 }
 
@@ -67,33 +67,59 @@ function chargerTypeMets(id) {
 
 
 
+let tablObj;
+
+
+
+
+function chargerMets() {
+    let xhr = new XMLHttpRequest();
+    xhr.open("get",'http://localhost/mets', true);
+    xhr.onload=function () {
+        tablObj= JSON.parse(xhr.response).slice();
+        createHtml(tablObj.slice());
+    };
+    xhr.send();
+}
+
+
+
+
+
+function createHtml(tabl) {
+    let mets = "";
+    for (let i in tabl) {
+        mets += "<p><strong style='color: #f1935c;font-size: 30px'>"+tabl[i].nomMets+"</strong><br>"+tabl[i].description+"<p><br>";
+    }
+    document.getElementById("tousMets").innerHTML=mets;
+}
 
 
 
 
 
 
+function tri(){
+    let tablObj2 = tablObj.slice();
 
+    let count = 0;
+    if (document.getElementById("type").value ==="Tout"){
+        createHtml(tablObj2)
+    }
+    else{
+        for(let i in tablObj) {
+            if (document.getElementById("type").value !== tablObj[i].nomTypeMets) {
+                tablObj2.splice(count,1);
+                count -= 1 ;
 
+            }
+            count+=1;
+        }
+        createHtml(tablObj2);
+        console.log(tablObj2);
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
