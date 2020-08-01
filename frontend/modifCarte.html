@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <title>vegezek</title>
 </head>
-<body  onload="chargerTypeMets('typeMets')" >
+<body  onload="chargerTypeMets('typeMets');chargerSuggestions()">
     <button onclick="document.location.href='site.html'">Home</button><br><br><br><br>
 
     <form onsubmit="return modif()" id="formAjout">
@@ -21,9 +21,20 @@
         </select>
         <input type="submit">
 
-    </form>
+    </form><br><br><br><br><br>
 
-    <p id="metsEnvoye"></p>
+    <p id="metsEnvoye"></p><br><br><br>
+
+    <hr color="black" width="40%">
+
+    <div style="text-align: center">
+        <p style="font-size: 35px; font-weight: bold">Suggestions des clients :</p><br>
+        <img src="img/fleche.svg" width="110px" height="110px"><br><br>
+        <div id="affichageSuggestions">
+
+        </div>
+
+    </div>
 
 </body>
 </html>

@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc35cea-f527-4cfd-bb8e-fba22428c11c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/suggestions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/carte.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/carte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/script-api-rest/webservice-adminConnexion.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/script-api-rest/webservice-adminConnexion.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/scripts-base-de-donnees/creation-tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/scripts-base-de-donnees/creation-tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/scripts-base-de-donnees/insertion-donnees.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/scripts-base-de-donnees/insertion-donnees.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/avis.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/avis.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/css/site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/modifCarte.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/modifCarte.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/site.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/site.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/site.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/site.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/site.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +116,13 @@
       <workItem from="1596130488247" duration="2436000" />
       <workItem from="1596149033499" duration="3119000" />
       <workItem from="1596191449874" duration="17044000" />
+      <workItem from="1596231176950" duration="733000" />
+      <workItem from="1596232605973" duration="29000" />
+      <workItem from="1596232641859" duration="1923000" />
+      <workItem from="1596237446008" duration="648000" />
+      <workItem from="1596240360948" duration="371000" />
+      <workItem from="1596274981108" duration="3448000" />
+      <workItem from="1596279496005" duration="8390000" />
     </task>
     <servers />
   </component>

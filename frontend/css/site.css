@@ -153,6 +153,10 @@ html {
     color: whitesmoke;
 }
 
+#formCodeClients {
+    text-align: center;
+}
+
 
 
 
@@ -182,6 +186,28 @@ html {
 
 #map {
     border-radius: 30px;
+}
+
+
+
+
+                        /* modifcarte */
+
+#formAjout {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+                        /* suggestions */
+
+#formSuggestion {
+    text-align: center;
 }
 
 

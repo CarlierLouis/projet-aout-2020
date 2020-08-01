@@ -70,8 +70,6 @@ function chargerTypeMets(id) {
 let tablObj;
 
 
-
-
 function chargerMets() {
     let xhr = new XMLHttpRequest();
     xhr.open("get",'http://localhost/mets', true);
@@ -126,4 +124,59 @@ function tri(){
 
 
 
+function connectClients() {
+    let fo = document.getElementById('formConnexionClients');
+    let code = fo.code.value;
+    let xhr = new XMLHttpRequest();
+    xhr.open('get', 'http://localhost/clientConnexion', true);
+    xhr.onload = function () {
+        xhr = JSON.parse(xhr.response);
+        for (let i = 0; i < xhr.length; i++) {
+            if (xhr[i].code===code) {
+                document.location.href ="suggestions.html";
+            }
+            else {
+                document.getElementById("verif2").innerHTML = "Code clients incorrect";
+            }
+        }
 
+    };
+    xhr.send();
+    console.log("erreur");
+    return false;
+}
+
+
+
+
+
+
+function sugg() {
+    let fo = document.getElementById('formSuggestion');
+    let selectElmt = document.getElementById("typeMets");
+    let typeMetsSelectionne = selectElmt.options[selectElmt.selectedIndex].id;
+    let xhr = new XMLHttpRequest();
+    xhr.open('get','http://localhost/suggestion?descSuggestion='+fo.descSuggestion.value+'&id_typeMets='+typeMetsSelectionne,true);
+    xhr.send();
+    document.getElementById('suggEnvoye').innerHTML = 'Suggestion envoyée !';
+    fo.descSuggestion.value='';
+    return false;
+}
+
+
+
+
+
+function chargerSuggestions() {
+    let xhr = new XMLHttpRequest();
+    xhr.open("get",'http://localhost/chargSuggestions', true);
+    xhr.onload=function () {
+        let tablObjSugg = JSON.parse(xhr.response).slice();
+        let sugg = "";
+        for(let i in tablObjSugg){
+            sugg += "<p><strong style='color: #f1935c;font-size: 28px'>"+tablObjSugg[i].descSuggestion+"</strong><p><br>";
+        }
+        document.getElementById("affichageSuggestions").innerHTML += sugg;
+    };
+    xhr.send();
+}

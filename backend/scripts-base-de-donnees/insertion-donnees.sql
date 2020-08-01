@@ -4,3 +4,7 @@ insert into "DBA".administrateurs (id_administrateur,pseudo,mp) VALUES(1,'louis'
 insert into "DBA".typesMets (id_typeMets,nomTypeMets) VALUES(1,'Entrées');
 insert into "DBA".typesMets (id_typeMets,nomTypeMets) VALUES(2,'Plats');
 insert into "DBA".typesMets (id_typeMets,nomTypeMets) VALUES(3,'Desserts');
+
+
+insert into "DBA".codesClients (id_codeClients,code) VALUES(1,'23zXLpb4Z');
+
