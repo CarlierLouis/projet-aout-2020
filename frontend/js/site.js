@@ -26,7 +26,10 @@ function connect() {
 
 
 
-
+/**
+ ajoute le mets passé par un formulaire
+ @return {boolean} false
+ **/
 
 function modif() {
     let fo = document.getElementById('formAjout');
@@ -46,7 +49,10 @@ function modif() {
 
 
 
-
+/**
+ crée une chaine html et la remplace dans le html
+ @param {string} id - le nom de l'id où va être introduit la chaine
+ **/
 
 function chargerTypeMets(id) {
     let xhr =new XMLHttpRequest();
@@ -82,7 +88,10 @@ function chargerMets() {
 
 
 
-
+/**
+ crée une chaine html et la remplace dans le html
+ @param tabl - tableau d'objet contenant les mets
+ **/
 
 function createHtml(tabl) {
     let mets = "";
@@ -95,7 +104,9 @@ function createHtml(tabl) {
 
 
 
-
+/**
+ permet d'afficher les mets d'un certain type
+ **/
 
 function tri(){
     let tablObj2 = tablObj.slice();
