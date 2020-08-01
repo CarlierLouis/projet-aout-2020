@@ -25,6 +25,7 @@ suggestions qui seront visibles par les administrateurs dans leur interface déd
 
 # Détail api rest
 -adminConnexion : Permet la connexion des administrateurs à la BDD.
+-
 Il ne prend rien en paramètre.
 Il récupère les pseudos et mots de passes dans la BBD (type = JSON).
 
