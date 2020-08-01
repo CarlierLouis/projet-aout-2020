@@ -28,7 +28,7 @@ suggestions qui seront visibles par les administrateurs dans leur interface déd
 Il ne prend rien en paramètre.
 Il récupère les pseudos et mots de passes dans la BBD (type = JSON).
 
--chargSuggestions : 
+-chargSuggestions : permet de créer un tableau d'objets
 
 -clientConnexion : 
 
@@ -41,7 +41,8 @@ Il récupère les pseudos et mots de passes dans la BBD (type = JSON).
 -typeMets : 
 
 # Détail DB 
-# Shéma relationel 
-	
+-
 
+# Schéma relationel 
 
+![Schéma](schemaRelationnel.png)
