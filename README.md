@@ -1,5 +1,5 @@
 # projet-aout-2020
-Site d'un restaurant végétarien
+Site d'un restaurant végétarien.
 
 # Description du projet
 Le projet est le site d'un restaurant végétarien appelé "vegezek".
