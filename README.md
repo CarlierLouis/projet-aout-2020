@@ -30,28 +30,34 @@ Il ne prend rien en paramètre.
 Il récupère les pseudos et mots de passes dans la BBD (type = JSON).
 
 -chargSuggestions : Permet de créer un tableau d'objet d'id de suggestion, de la description de suggestion et du nom du type de mets.
+-
 Il ne prend rien en paramètre.
 Il récupère les id des suggestions,les descriptions des suggestions et les types de mets présents dans la BBD.
 Il envoie cela sous forme d'un tableau d'objet (type = JSON).
 
 -clientConnexion : Permet la connexion des clients à la BDD.
+-
 Il ne prend rien en paramètre.
 Il récupère les codes clients dans la BDD (type = JSON).
 
 -mets : Permet de créer un tableau d'objet d'id de mets, de nom de mets, de description et de nom du type de mets.
+-
 Il ne prend rien en paramètre.
 Il récupère les id des mets, les noms des mets, les descriptions et les types de mets présents dans la BDD.
 Il envoie cela sous forme d'un tableau d'objet (type = JSON).
 
 -modifCarte : Permet d'ajouter des mets dans BDD.
+-
 Il prend un nom de mets, une description et un id de type de mets en paramètre.
 Il insère ensuite les données dans la BDD (type = RAW).
 
 -suggestion : Permet d'ajouter des suggestions dans la BDD.
+-
 Il prend une description de suggestion et un id de type de mets en paramètre.
 Il insère ensuite les données dans la BDD (type = RAW).
 
 -typeMets : Permet de créer un tableau d'objet des différents types de mets.
+-
 Il ne prend rien en paramètre.
 Il récupère les types de mets présents dans la BDD et les envois sous forme d'un tableau d'objet (type = JSON).
 
