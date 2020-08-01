@@ -24,24 +24,70 @@ Les clients connectés ont la possibilté de faire des suggestions de mets à aj
 suggestions qui seront visibles par les administrateurs dans leur interface dédiée.
 
 # Détail api rest
--adminConnexion : permet la connexion des administrateurs à la BDD.
+-adminConnexion : Permet la connexion des administrateurs à la BDD.
 Il ne prend rien en paramètre.
 Il récupère les pseudos et mots de passes dans la BBD (type = JSON).
 
--chargSuggestions : permet de créer un tableau d'objets
+-chargSuggestions : Permet de créer un tableau d'objet d'id de suggestion, de la description de suggestion et du nom du type de mets.
+Il ne prend rien en paramètre.
+Il récupère les id des suggestions,les descriptions des suggestions et les types de mets présents dans la BBD.
+Il envoie cela sous forme d'un tableau d'objet (type = JSON).
 
--clientConnexion : 
+-clientConnexion : Permet la connexion des clients à la BDD.
+Il ne prend rien en paramètre.
+Il récupère les codes clients dans la BDD (type = JSON).
 
--mets : 
+-mets : Permet de créer un tableau d'objet d'id de mets, de nom de mets, de description et de nom du type de mets.
+Il ne prend rien en paramètre.
+Il récupère les id des mets, les noms des mets, les descriptions et les types de mets présents dans la BDD.
+Il envoie cela sous forme d'un tableau d'objet (type = JSON).
 
--modifCarte : 
+-modifCarte : Permet d'ajouter des mets dans BDD.
+Il prend un nom de mets, une description et un id de type de mets en paramètre.
+Il insère ensuite les données dans la BDD (type = RAW).
 
--suggestion : 
+-suggestion : Permet d'ajouter des suggestions dans la BDD.
+Il prend une description de suggestion et un id de type de mets en paramètre.
+Il insère ensuite les données dans la BDD (type = RAW).
 
--typeMets : 
+-typeMets : Permet de créer un tableau d'objet des différents types de mets.
+Il ne prend rien en paramètre.
+Il récupère les types de mets présents dans la BDD et les envois sous forme d'un tableau d'objet (type = JSON).
 
 # Détail DB 
--
+-administrateurs : Il s'agit de la table des administrateurs présents dans la BBD.
+pk = id_administrateur.
+Cette table comprends trois collones : 
+	id_administrateur qui est auto incrémenté et qui est un entier.
+	pseudo qui est un varchar(30) regrouppant les pseudos des administrateurs.
+	mp qui est un varchar(30) regrouppant les mots de passes des administrateurs. 
+
+-codesClients : Il s'agit de la table des codes clients présents dans la BBD.
+pk = id_codeClients.
+Cette table comprend deux collones : 
+	id_codeClients qui est auto incrémenté et qui est un entier.
+	code qui est un varchar(30) regrouppant les codes clients.
+
+-mets : Il s'agit de la table des mets que propose le restaurant.
+pk = id_mets.
+Cette table comprend quattres collones : 
+	id_mets qui est auto incrémentée et est un entié.
+	nomMets qui est un varchar(100) regrouppant les noms des mets proposés.
+        description qui est un long varchar regrouppant les descriptions des mets. 
+	id_typeMets qui est auto incrémentée et est un entié. 
+
+-suggestions : Il s'agit de la table des suggestions proposées par les clients.
+pk = id_suggestion.
+Cette table comprend trois collones : 
+	id_suggestion qui est auto incrémentée et est un entié.
+        descSuggestion qui est un long varchar regrouppant les descriptions les suggestions des clients. 
+	id_typeMets qui est auto incrémentée et est un entié. 
+
+-typesMets : Il s'agit de la tables des types de mets présents dans la BDD.
+pk id_typeMets.
+Cette table comprend deux collones.
+	id_typeMets qui est auto incrémentée et est un entié.
+        nomTypeMets qui est un varchar(100) regrouppant les noms des types de mets. 
 
 # Schéma relationel 
 
