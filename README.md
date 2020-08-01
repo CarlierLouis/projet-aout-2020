@@ -63,6 +63,7 @@ Il récupère les types de mets présents dans la BDD et les envois sous forme d
 
 # Détail DB 
 -administrateurs : Il s'agit de la table des administrateurs présents dans la BBD.
+-
 pk = id_administrateur.
 Cette table comprends trois collones : 
 	id_administrateur qui est auto incrémenté et qui est un entier.
@@ -70,12 +71,14 @@ Cette table comprends trois collones :
 	mp qui est un varchar(30) regrouppant les mots de passes des administrateurs. 
 
 -codesClients : Il s'agit de la table des codes clients présents dans la BBD.
+-
 pk = id_codeClients.
 Cette table comprend deux collones : 
 	id_codeClients qui est auto incrémenté et qui est un entier.
 	code qui est un varchar(30) regrouppant les codes clients.
 
 -mets : Il s'agit de la table des mets que propose le restaurant.
+-
 pk = id_mets.
 Cette table comprend quattres collones : 
 	id_mets qui est auto incrémentée et est un entié.
@@ -84,6 +87,7 @@ Cette table comprend quattres collones :
 	id_typeMets qui est auto incrémentée et est un entié. 
 
 -suggestions : Il s'agit de la table des suggestions proposées par les clients.
+-
 pk = id_suggestion.
 Cette table comprend trois collones : 
 	id_suggestion qui est auto incrémentée et est un entié.
@@ -91,6 +95,7 @@ Cette table comprend trois collones :
 	id_typeMets qui est auto incrémentée et est un entié. 
 
 -typesMets : Il s'agit de la tables des types de mets présents dans la BDD.
+-
 pk id_typeMets.
 Cette table comprend deux collones.
 	id_typeMets qui est auto incrémentée et est un entié.
