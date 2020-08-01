@@ -45,4 +45,4 @@ Il récupère les pseudos et mots de passes dans la BBD (type = JSON).
 
 # Schéma relationel 
 
-![Schéma](schemaRelationnel.png)
+![Schéma](schemaRelationnel.PNG)
