@@ -4,6 +4,6 @@
 # Détail api rest
 # Détail DB 
 # Shéma relationel 
-	![Schéma Relationnel](schemaRelationnel.png)
+	
 
 
