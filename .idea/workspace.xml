@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2fc35cea-f527-4cfd-bb8e-fba22428c11c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/avis.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/avis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/carte.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/carte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/modifCarte.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/modifCarte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/site.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/site.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/site.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/site.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Bureau/démineur" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunManager">
@@ -117,6 +123,26 @@
       <workItem from="1596303605401" duration="600000" />
       <workItem from="1596310584495" duration="1179000" />
       <workItem from="1596311770797" duration="2000" />
+      <workItem from="1596314287405" duration="130000" />
+      <workItem from="1596924390281" duration="44000" />
+      <workItem from="1596924733644" duration="7000" />
+      <workItem from="1596924876879" duration="19000" />
+      <workItem from="1596924963857" duration="167000" />
+      <workItem from="1596925149933" duration="38000" />
+      <workItem from="1596925194735" duration="2000" />
+      <workItem from="1596925208615" duration="13000" />
+      <workItem from="1596925238297" duration="17000" />
+      <workItem from="1596925443282" duration="2000" />
+      <workItem from="1596927191846" duration="27000" />
+      <workItem from="1596927295764" duration="1444000" />
+      <workItem from="1596977994414" duration="11000" />
+      <workItem from="1596979429289" duration="67000" />
+      <workItem from="1597005293328" duration="23000" />
+      <workItem from="1597045980037" duration="13000" />
+      <workItem from="1597046453230" duration="15000" />
+      <workItem from="1597092996251" duration="31000" />
+      <workItem from="1597312563570" duration="596000" />
+      <workItem from="1597398792148" duration="323000" />
     </task>
     <servers />
   </component>
@@ -132,9 +158,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-1920.373.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593797841460" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1595451821060">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597005309732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.231.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597005309732" />
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.373.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595451821060" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1594297292189">
       <screen x="0" y="0" width="1920" height="1040" />
